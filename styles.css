@@ -1,0 +1,196 @@
+body {
+  background-image: url(images/backgroundimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-message {
+  width: 327px;
+  height: 192px;
+
+  /* Theme 2 / Subhead 1 */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* identical to box height, or 140% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: space-around;
+}
+
+.greetingsandsocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: none;
+  top: 92px;
+}
+
+.intro1 {
+  width: 327px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.intro2 {
+  width: 327px;
+  height: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.intromessage {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.social-container {
+  width: 170.17px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  list-style-type: none;
+}
+
+.fa-twitter {
+  position: absolute;
+  width: 19.99px;
+  height: 20px;
+  left: 36.31%;
+  right: 51.36%;
+  top: 68.83%;
+  bottom: 23.42%;
+  color: #505f79;
+}
+
+.fa-linkedin-in {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 43.31%;
+  right: 52.96%;
+  top: 68.83%;
+  bottom: 23.42%;
+  color: #505f79;
+}
+
+.fa-m {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 50.38%;
+  right: 48.29%;
+  top: 68.83%;
+  bottom: 23.69%;
+  color: #505f79;
+}
+
+.fa-github {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 57.04%;
+  right: 40.16%;
+  top: 68.83%;
+  bottom: 23.42%;
+  color: #505f79;
+}
+
+.fa-angellist {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 63.91%;
+  right: 34.31%;
+  top: 68.83%;
+  bottom: 23.42%;
+  color: #505f79;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 50px;
+  position: absolute;
+  width: 379px;
+  height: 3283px;
+  left: 0px;
+  top: 708px;
+}
+
+button {
+  width: 24px;
+  height: 24px;
+}
+
+.recent-works {
+  width: 327px;
+  height: 97px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fa-horizontal-rule {
+  width: 48px;
+  height: 4px;
+  background: #36B37E;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
