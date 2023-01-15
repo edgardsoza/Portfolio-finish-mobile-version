@@ -1,14 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 100%;
-}
-
-.greetingsandsocial {
-  background-image: url(images/backgroundimage.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .welcome-message {
@@ -48,6 +42,9 @@
   height: 726px;
   left: none;
   top: 92px;
+  background-image: url(images/backgroundimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .disabled {
@@ -318,7 +315,7 @@
   text-align: center;
   width: 364px;
   margin-top: 3850px;
-  gap:30px;
+  gap: 30px;
   margin-left: 22px;
   margin-right: 26px;
 }
