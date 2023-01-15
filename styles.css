@@ -265,6 +265,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding: 8px 12px;
 }
 
 .technologies li {
@@ -286,8 +287,8 @@ body {
   width: 122px;
   height: 48px;
   bottom: 15px;
-  position:relative;
-  border:none;
+  position: relative;
+  border: none;
   background: #36b37f;
   border-radius: 4px;
   color: #fff;
@@ -340,7 +341,7 @@ body {
   height: 50px;
   bottom: 15px;
   font-weight: 550px;
-  font-size:20px;
+  font-size: 20px;
   position: relative;
   border: none;
   background: #36b37f;
@@ -355,7 +356,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #eBf0ee;
+  background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   width: 327px;
@@ -392,7 +393,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 8px 12px;
   gap: 8px;
   letter-spacing: 0.03em;
   color: #36b37e;
@@ -422,7 +423,7 @@ body {
   padding: 8px 10px;
 }
 
-.contactinfo{
+.contactinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -430,14 +431,14 @@ body {
 
 .contactparagraph {
   width: 327px;
-height: 363px;
-text-align: center;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #172b4d;
+  height: 363px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
 
 .full-name {
@@ -475,9 +476,9 @@ color: #172b4d;
   width: 200px;
   height: 50px;
   font-weight: 550px;
-  font-size:20px;
-  position:relative;
-  border:none;
+  font-size: 20px;
+  position: relative;
+  border: none;
   background: #36b37f;
   border-radius: 4px;
   color: #fff;
@@ -507,6 +508,6 @@ color: #172b4d;
   position: absolute;
   width: 400.17px;
   height: 20px;
-  top: 164.75%;
+  top: 167.25%;
   list-style-type: none;
 }
