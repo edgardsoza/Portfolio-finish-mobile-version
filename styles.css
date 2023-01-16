@@ -5,28 +5,22 @@
   width: 100%;
 }
 
-.welcome-message {
-  max-width: 327px;
+.welcome-container {
+  width: 327px;
   height: 28px;
-
-  /* Theme 2 / Subhead 1 */
+  margin-left: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-
-  /* identical to box height, or 140% */
   display: flex;
   color: #28352f;
-  background-color: red;
-
-  /* Inside auto layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  text-align: center;
-  justify-content: space-between;
+}
+
+.welcome-container .menu-icon {
+text-align: right;
 }
 
 .greetingsandsocial {
@@ -317,7 +311,6 @@
   gap: 30px;
   margin-left: 22px;
   margin-right: 26px;
-  background-color: red;
 }
 
 .aboutme {
