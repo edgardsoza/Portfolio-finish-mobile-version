@@ -26,7 +26,7 @@
 
 # 📖 My first portfolio <a name="about-project"></a>
 
-This is my first portfolio and I am finishing the mobile version first. 
+This is my first portfolio and I am finishing my mobile version with the contact form at the end. 
 
 ## 🛠 Built With <a name="built-with">HTML and CSS</a>
 
@@ -43,7 +43,7 @@ This is my first portfolio and I am finishing the mobile version first.
 
 - Recent works section. 
 - Technologies added.
--  Contact info added.
+-  Contact form added and functional.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,9 +94,9 @@ Open the project by launching the Live Server plugging in visual studio code.
 
 👤 **Edgard Soza**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/edgardsoza)
+- Twitter: [@twitterhandle](https://twitter.com/soza_edgard)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/edgard-soza-sobalvarro/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +122,7 @@ Feel free to check the page of the project at https://www.portfolio.com
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give a like on the following page:
-portfolio.com.
+https://www.portfolio.com.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,11 +141,11 @@ I would like to thank my family and everyone who helped on this project.
 
 - How do I use it?
 
-  - Feel free to download the code in the github repository given above and change it as you want it.
+  - Feel free to download the code in the github repository given by using the main branch above and change it as you want it in another branch.
 
 - How long did it take this?
 
-  - It took like 4 hours, some visual details were difficult to get.
+  - It took like 2 hours, contact form was easier than expected. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
