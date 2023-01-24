@@ -532,6 +532,7 @@ form li + li {
   background: #36b37f;
   border-radius: 4px;
   margin: auto;
+  
 }
 
 .submit_button button {
@@ -546,11 +547,16 @@ form li + li {
 }
 
 .my-email {
+  padding-top: 30px;
   width: 375px;
   height: 189px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
   text-align: center;
-  color: #42526e;
-  margin-top: 40px;
+  color: #42526E;
 }
 
 .fa-dash {
