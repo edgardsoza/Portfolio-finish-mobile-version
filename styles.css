@@ -6,7 +6,7 @@
 }
 
 .welcome-container {
-  width: 327px;
+  /*width: 327px;*/
   height: 28px;
   margin-left: 24px;
   font-family: 'Inter', sans-serif;
@@ -30,7 +30,7 @@
   padding: 64px 24px;
   gap: 100px;
   position: absolute;
-  width: 327px;
+  /*width: 327px;*/
   height: 726px;
   left: none;
   top: 92px;
@@ -47,7 +47,7 @@
 }
 
 .intro1 {
-  width: 327px;
+  /*width: 327px;*/
   height: 20px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -62,7 +62,7 @@
 }
 
 .intro2 {
-  width: 327px;
+  /*width: 327px;*/
   height: 10px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -77,7 +77,7 @@
 }
 
 .intromessage {
-  width: 327px;
+  /*width: 327px;*/
   height: 164px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -162,7 +162,7 @@
   padding: 64px 24px;
   gap: 50px;
   position: absolute;
-  width: 327px;
+  /*width: 327px;*/
   height: 3283px;
   top: 708px;
   margin-left: 26px;
@@ -174,7 +174,7 @@
 }
 
 .recent-works {
-  width: 327px;
+  /*width: 327px;*/
   height: 97px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -205,7 +205,7 @@
   grid-template-columns: 327px;
   grid-template-rows: repeat(5, 474px);
   gap: 1rem;
-  width: 327px;
+  /*width: 327px;*/
   height: 2972px;
   border-radius: 8px;
 }
@@ -224,7 +224,7 @@
 }
 
 .projectimages {
-  width: 327px;
+  /*width: 327px;*/
   height: 252px;
 }
 
@@ -306,7 +306,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 351px;
+  /*width: 351px;*/
   margin-top: 4000px;
   gap: 30px;
   margin-left: 22px;
@@ -318,7 +318,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 351px;
+  /*width: 351px;*/
   height: 189px;
   margin-bottom: 150px;
 }
@@ -342,7 +342,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  width: 351px;
+  /*width: 351px;*/
   height: 189px;
   text-align: center;
   color: #42526e;
@@ -384,7 +384,7 @@
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   gap: 20px;
-  width: 327px;
+  /*width: 327px;*/
   height: 352px;
   justify-content: center;
 }
@@ -465,7 +465,7 @@
 }
 
 .contactparagraph {
-  width: 327px;
+  /*width: 327px;*/
   height: 363px;
   text-align: center;
   align-items: center;
@@ -496,7 +496,7 @@ form li + li {
 
 #name,
 #email {
-  width: 327px;
+  /*width: 327px;*/
   height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -507,7 +507,7 @@ form li + li {
 }
 
 #message {
-  width: 327px;
+  /*width: 327px;*/
   height: 114px;
   border: 1px solid #60c095;
   border-radius: 4px;
@@ -542,7 +542,7 @@ form li + li {
 }
 
 .my-email {
-  width: 375px;
+  /*width: 375px;*/
   height: 189px;
   text-align: center;
   color: #42526e;
@@ -562,7 +562,7 @@ form li + li {
 
 .about-social-container {
   position: absolute;
-  width: 375px;
+  /*width: 375px;*/
   height: 20px;
   top: 6315px;
   list-style-type: none;
