@@ -4,7 +4,7 @@
   box-sizing: border-box;
   width: 100%;
 }
-
+@media only screen and (max-width: 600px) {
 .welcome-container {
   /*width: 327px;*/
   height: 28px;
@@ -566,4 +566,5 @@ form li + li {
   height: 20px;
   top: 6315px;
   list-style-type: none;
+}
 }
