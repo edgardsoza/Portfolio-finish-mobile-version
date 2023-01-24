@@ -504,6 +504,8 @@ form li + li {
   font-size: 15px;
   line-height: 24px;
   color: #6b778c;
+  padding: 15px;
+  text-transform: capitalize;
 }
 
 #message {
@@ -517,6 +519,8 @@ form li + li {
   font-size: 15px;
   line-height: 24px;
   color: #091e42;
+  padding: 15px;
+  text-transform: capitalize;
 }
 
 .submit_button {
