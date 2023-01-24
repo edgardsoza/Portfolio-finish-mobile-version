@@ -273,6 +273,11 @@
   padding: 8px 12px;
 }
 
+form li + li {
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+}
+
 .technologies li {
   display: flex;
   flex-direction: row;
@@ -439,11 +444,6 @@
   flex-grow: 0;
 }
 
-form li + li {
-  margin-bottom: 1.4em;
-  margin-top: 1.4em;
-}
-
 .languages li,
 .techframeworks li,
 .othertechframeworks li,
@@ -466,7 +466,7 @@ form li + li {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap:  20px;
+  gap: 20px;
 }
 
 .contactparagraph {
