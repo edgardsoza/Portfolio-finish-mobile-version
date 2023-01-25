@@ -171,11 +171,6 @@
   margin-left: 26px;
 }
 
-.disabledbutton {
-  width: 20px;
-  height: 20px;
-}
-
 .recent-works {
   width: 327px;
   height: 97px;
@@ -495,6 +490,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< Updated upstream
   text-align: center;
 }
 
@@ -512,6 +508,12 @@
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   background: #fff;
+=======
+}
+
+.full-name,
+.email-address {
+>>>>>>> Stashed changes
   width: 327px;
   height: 48px;
 }
@@ -542,6 +544,17 @@
   cursor: pointer;
   justify-content: center;
   margin-bottom: 40px;
+<<<<<<< Updated upstream
+=======
+}
+
+.get-in-button:hover {
+  background: #62e2ad;
+}
+
+.get-in-button:active {
+  background: #045f38;
+>>>>>>> Stashed changes
 }
 
 .my-email {
@@ -552,7 +565,7 @@
   margin-top: 40px;
 }
 
-.fa-dash {
+.enddash {
   width: 130px;
   height: 4px;
   background: black;
@@ -602,7 +615,11 @@
   }
 
 body {
+<<<<<<< Updated upstream
   background-image: url(images/desktop-background.png);
+=======
+  background-image: url(images/desktop-background.jpg);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-position-x: center;
 }
@@ -614,7 +631,10 @@ body {
   background-image: initial;
   width: 100%;
   gap: 10px;
+<<<<<<< Updated upstream
   margin: auto;
+=======
+>>>>>>> Stashed changes
  }
 
 .intro1 {
@@ -654,6 +674,239 @@ body {
 .social-container {
   width: 200px;
   height: 40px;
+<<<<<<< Updated upstream
+=======
+  list-style-type: none;
+  padding: none;
+}
+
+.fa-twitter {
+  position: absolute;
+  width: 19.99px;
+  height: 20px;
+  left: 41.31%;
+  right: 58.36%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-linkedin-in {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 46.31%;
+  right: 52.96%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-m {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 50.88%;
+  right: 48.29%;
+  top: 68.83%;
+  bottom: 33.69%;
+  color: #505f79;
+}
+
+.fa-github {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 55.54%;
+  right: 40.16%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-angellist {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 59.91%;
+  right: 34.31%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 64px 24px;
+  gap: 50px;
+  width: 100%;
+}
+
+.recent-works {
+  width: 500px;
+  justify-content: center;
+}
+
+.disabled {
+  margin-top: 600px;
+  margin-bottom: 150px;
+}
+
+.fa-horizontal-rule,
+#separator {
+  display: none;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3,369px);
+  grid-template-rows: repeat(2, 474px);
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6 {
+  border: 1px solid #d0d9d4;
+  border-radius: 1%;
+}
+
+.projectimages {
+  width: 367px;
+  height: 252px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2300px;
+}
+
+.after-resume {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 189px;
+  margin-bottom: 80px;
+}
+
+.titleaboutme {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutmeparagraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 770px;
+  height: 109px;
+  text-align: center;
+  color: #42526e;
+}
+
+.projectbuttonresume {
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 12px;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  bottom: 15px;
+  font-weight: 550px;
+  font-size: 20px;
+  position: relative;
+  border: none;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.languages,
+.frameworks,
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  gap: 20px;
+  width: 349px;
+  height: 352px;
+  justify-content: center;
+}
+
+.contactinfo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+  width: 1185px;
+  margin: none;
+}
+
+.sendamessage {
+  width: 100%;
+}
+
+.contactparagraph {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.my-email,
+#enddash {
+  display: none;
+}
+
+.about-social-container {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  top: 3450px;
+>>>>>>> Stashed changes
   list-style-type: none;
   padding: none;
 }
@@ -884,5 +1137,6 @@ body {
   text-align: center;
   top: 3500px;
   list-style-type: none;
+}
 }
 }
