@@ -17,6 +17,13 @@
             <a class="welcome">Welcome</a>
             <a class="menu-icon"><i class="ri-menu-line"></i></a>
         </header>
+        <nav class="menu-web">
+            <ul class="web-options">
+                <li><a class="portfolio">Portfolio</a></li>
+                <li><a class="about-web"></a>About</li>
+                <li><a class="contact-web"></a>Contact</li>
+            </ul>
+        </nav>
         <section class="greetingsandsocial">
             <h2 class="intro1">Hey there. I'm Edgard</h2>
             <h2 class="intro2">I'm a software developer</h2>
@@ -25,17 +32,17 @@
             If you like what you see and have a project you need coded, 
             don't hestiate to contact me.</p>
                 <ul class="social-container">
-                    <li><a href="https://twitter.com/soza_edgard"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/edgard-soza-sobalvarro/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-m"></i></a></li>
-                    <li><a href="https://github.com/edgardsoza"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
+                    <li><a class="twitterlogo" href="https://twitter.com/soza_edgard"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="linkedinlogo" href="https://www.linkedin.com/in/edgard-soza-sobalvarro/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a class="mlogo" href="#"><i class="fa-brands fa-m"></i></a></li>
+                    <li><a class="githublogo" href="https://github.com/edgardsoza"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a class="angellist logo" href="#"><i class="fa-brands fa-angellist"></i></a></li>
                 </ul>
         </section>
     <section class="recent">
         <img class="disabled" src="images/disabled.png" alt="">
         <h1 class="recent-works">My Recent Works</h1>
-        <div><i class="fa-solid fa-horizontal-rule"></i></div>
+        <div><i id="separator" class="fa-solid fa-horizontal-rule"></i></div>
         <div class="project-container">
             <div class="project1">
                     <img class="projectimages" src="images/project1.jpg" alt="">
@@ -100,7 +107,7 @@
                             <li class="html">html</li>
                         </ul>
                         <button class="projectbutton" type="action">See Project</button>
-                    </div> 
+                    </div>
             </div>
             <div class="project6">
                 <img class="projectimages" src="images/project1.jpg" alt="">
@@ -124,6 +131,7 @@
             don't hestiate to contact me.</p>
             <button class="projectbuttonresume" type="action">Get My Resume</button>
         </div>
+    <section class="after-resume">
         <div class="languages">
             <img class="iconlanguages" src="images/icon-languages.png" alt="">
             <h2 class="titlelanguages">Languages</h2>
@@ -160,18 +168,21 @@
                 <li class="Terminal">Terminal</li>
             </ul>
         </div>
+    </section>
+    <section class="contactandform">
         <div class="contactinfo">
             <p class="contactparagraph">I'm always interested in hearing about new projects,
                  so if you'd like to chat please get in touch.
             </p>
-            <form action="https://formspree.io/f/xeqwoznl" method="post">
-                <ul class="contact-form">
+            <form class="contactform" action="https://formspree.io/f/xeqwoznl" method="post">
+                <ul class="sendamessage">
                     <li><input type="text" id="name" name="full_name" placeholder="Full Name" maxlength="30" required/></li>
                     <li><input type="email" id="email" name="contact_email" placeholder="Email address" required/></li>
-                    <li><textarea id="message" name="contact_message" placeholder="Enter text here" maxlength="500" required></textarea>
-                    <button id="submit_button" type="submit">Get in touch</button>
+                    <li><textarea id="message" name="contact_message" placeholder="Typing Something" maxlength="500" required></textarea>
+                    <button class="get-in-button" type="submit">Get in touch</button>
                 </ul>
             </form>
+    </section>
             <ul class="about-social-container">
                 <li><a class="social-media" href="https://twitter.com/soza_edgard"><i class="fa-brands fa-twitter"></i></a></li>
                 <li><a class="social-media" href="https://www.linkedin.com/in/edgard-soza-sobalvarro/"><i class="fa-brands fa-linkedin-in"></i></a></li>
