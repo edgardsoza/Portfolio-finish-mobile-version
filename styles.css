@@ -271,6 +271,11 @@
   padding: 8px 12px;
 }
 
+form li + li {
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+}
+
 .technologies li {
   display: flex;
   flex-direction: row;
@@ -493,31 +498,33 @@
   text-align: center;
 }
 
-.full-name {
-  box-sizing: border-box;
-  background: #fff;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
+#name,
+#email {
   width: 327px;
   height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  padding: 15px;
+  text-transform: capitalize;
 }
 
-.email-address {
-  box-sizing: border-box;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  background: #fff;
-  width: 327px;
-  height: 48px;
-}
-
-.enter-text {
-  box-sizing: border-box;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  background: #fff;
+#message {
   width: 327px;
   height: 114px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 15px;
+  text-transform: capitalize;
 }
 
 .get-in-button {
@@ -537,6 +544,14 @@
   cursor: pointer;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.get-in-button:hover {
+  background: #62e2ad;
+}
+
+.get-in-button:active {
+  background: #045f38;
 }
 
 .my-email {
@@ -726,6 +741,7 @@ body {
 
 .disabled {
   margin-bottom: 130px;
+  margin-top: 600px;
 }
 
 .fa-horizontal-rule,
