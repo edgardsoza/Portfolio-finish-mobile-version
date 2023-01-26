@@ -153,7 +153,7 @@ I would like to thank my family and everyone who helped on this project.
 
 ## 📝 <a name="license">MIT License</a>
 
-This project is <a href="https://github.com/edgardsoza/Portfolio-finish-mobile-version/blob/finishing-desktop-version/LICENSE">MIT</a> licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
