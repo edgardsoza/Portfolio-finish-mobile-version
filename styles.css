@@ -290,6 +290,7 @@ form li + li {
   gap: 30px;
   margin-left: 22px;
   margin-right: 26px;
+  background: url(images/aboutmemobile2.png) top right no-repeat;
 }
 
 .after-resume {
@@ -309,8 +310,9 @@ form li + li {
   align-items: center;
   text-align: center;
   width: 351px;
-  height: 189px;
-  margin-bottom: 150px;
+  height: 300px;
+  margin-bottom: 60px;
+  background: url(images/aboutmemobile1.png) bottom left no-repeat;
 }
 
 .titleaboutme {
@@ -747,9 +749,7 @@ form li + li {
     align-items: center;
     width: 1850px;
     margin-top: 1600px;
-    background-image: url(images/aboutmeimage.png);
-    background-size: cover;
-    background-repeat: repeat-x;
+    background: url(images/aboutme1desktop.png) left top no-repeat, url(images/aboutme2desktop.png) right top no-repeat;
   }
 
   .after-resume {
@@ -770,6 +770,7 @@ form li + li {
     width: 400px;
     height: 189px;
     margin-bottom: 80px;
+    background: none;
   }
 
   .titleaboutme {
@@ -835,6 +836,7 @@ form li + li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background: url(images/contactform1desktop.png) left bottom no-repeat, url(images/contactform2desktop.png) right bottom no-repeat;
   }
 
   .contactinfo {
@@ -842,8 +844,9 @@ form li + li {
     flex-direction: row;
     gap: 20px;
     height: 400px;
-    width: 1185px;
+    width: 1130px;
     margin-top: 60px;
+    background: url(images/contactparagraphdesktop.png) left bottom no-repeat;
   }
 
   .sendamessage {
@@ -854,7 +857,7 @@ form li + li {
   }
 
   .contactparagraph {
-    width: 1500px;
+    width: 600px;
     height: 256px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
