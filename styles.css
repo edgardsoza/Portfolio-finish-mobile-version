@@ -844,7 +844,7 @@ form li + li {
     flex-direction: row;
     gap: 20px;
     height: 400px;
-    width: 1130px;
+    width: 1050px;
     margin-top: 60px;
     background: url(images/contactparagraphdesktop.png) left bottom no-repeat;
   }
