@@ -16,11 +16,14 @@
   line-height: 28px;
   display: flex;
   color: #28352f;
-  flex: none;
 }
 
 .welcome-container .menu-icon {
   text-align: right;
+}
+
+.menu-web {
+  display: none;
 }
 
 .greetingsandsocial {
@@ -168,11 +171,6 @@
   margin-left: 26px;
 }
 
-.disabledbutton {
-  width: 20px;
-  height: 20px;
-}
-
 .recent-works {
   width: 327px;
   height: 97px;
@@ -313,6 +311,17 @@ form li + li {
   align-items: center;
   width: 351px;
   margin-top: 4000px;
+  gap: 30px;
+  margin-left: 22px;
+  margin-right: 26px;
+}
+
+.after-resume {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 351px;
   gap: 30px;
   margin-left: 22px;
   margin-right: 26px;
@@ -466,7 +475,6 @@ form li + li {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 20px;
 }
 
 .contactparagraph {
@@ -479,19 +487,15 @@ form li + li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   color: #172b4d;
 }
 
-.contact-form {
-  list-style: none;
-  padding: 0;
-  background-color: fff;
-  border-radius: 4px;
-  width: 327px;
-  margin: 0 auto;
-  margin-top: 20px;
-  justify-content: center;
+.sendamessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 #name,
@@ -523,45 +527,42 @@ form li + li {
   text-transform: capitalize;
 }
 
-#submit_button {
+.get-in-button {
   font-family: 'Inter', sans-serif;
-  padding: 12px;
-  width: 150px;
-  height: 48px;
-  background: #36b37f;
-  border: none;
-  border-radius: 4px;
-  margin-top: 10px;
-  color: #fff;
-  line-height: 24px;
-  font-weight: 550px;
   letter-spacing: 0.05em;
-  font-size: 17px;
+  padding: 12px;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  font-weight: 550px;
+  font-size: 20px;
+  position: relative;
+  border: none;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
   cursor: pointer;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-#submit_button:hover {
+.get-in-button:hover {
   background: #62e2ad;
 }
 
-#submit_button:active {
+.get-in-button:active {
   background: #045f38;
 }
 
 .my-email {
-  padding-top: 30px;
   width: 375px;
   height: 189px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
   text-align: center;
   color: #42526e;
+  margin-top: 40px;
 }
 
-.fa-dash {
+.enddash {
   width: 130px;
   height: 4px;
   background: black;
@@ -569,13 +570,330 @@ form li + li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 100px;
 }
 
 .about-social-container {
   position: absolute;
   width: 375px;
   height: 20px;
-  top: 6315px;
+  top: 6270px;
   list-style-type: none;
+}
+
+@media (min-width: 768px) {
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.welcome-container {
+  display: none;
+}
+
+.menu-web {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.web-options {
+  display: flex;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  width: 250px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 900;
+  color: #172b4d;
+  }
+
+body {
+  background-image: url(images/desktop-background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.greetingsandsocial {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: initial;
+  width: 100%;
+  gap: 10px;
+  margin: auto;
+ }
+
+.intro1 {
+  width: 920px;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.intro2 {
+  width: 920px;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #36b37e;
+}
+
+.intromessage {
+  width: 800px;
+  height: 96px;
+  text-justify: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.social-container {
+  width: 200px;
+  height: 40px;
+  list-style-type: none;
+  padding: none;
+}
+
+.fa-twitter {
+  position: absolute;
+  width: 19.99px;
+  height: 20px;
+  left: 41.31%;
+  right: 58.36%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-linkedin-in {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 46.31%;
+  right: 52.96%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-m {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 50.88%;
+  right: 48.29%;
+  top: 68.83%;
+  bottom: 33.69%;
+  color: #505f79;
+}
+
+.fa-github {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  left: 55.54%;
+  right: 40.16%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.fa-angellist {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 59.91%;
+  right: 34.31%;
+  top: 68.83%;
+  bottom: 33.42%;
+  color: #505f79;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 64px 24px;
+  gap: 50px;
+  width: 100%;
+}
+
+.recent-works {
+  width: 500px;
+  justify-content: center;
+}
+
+.disabled {
+  margin-bottom: 130px;
+  margin-top: 600px;
+}
+
+.fa-horizontal-rule,
+#separator {
+  display: none;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3,369px);
+  grid-template-rows: repeat(2, 474px);
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6 {
+  border: 1px solid #d0d9d4;
+  border-radius: 1%;
+}
+
+.projectimages {
+  width: 367px;
+  height: 252px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2300px;
+}
+
+.after-resume {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 189px;
+  margin-bottom: 80px;
+}
+
+.titleaboutme {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutmeparagraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 770px;
+  height: 109px;
+  text-align: center;
+  color: #42526e;
+}
+
+.projectbuttonresume {
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 12px;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  bottom: 15px;
+  font-weight: 550px;
+  font-size: 20px;
+  position: relative;
+  border: none;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.languages,
+.frameworks,
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  gap: 20px;
+  width: 375px;
+  height: 352px;
+  justify-content: center;
+}
+
+.contactinfo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+  width: 1185px;
+  margin: none;
+}
+
+.sendamessage {
+  width: 100%;
+}
+
+.contactparagraph {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.my-email,
+#enddash {
+  display: none;
+}
+
+.about-social-container {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  top: 3500px;
+  list-style-type: none;
+}
 }
