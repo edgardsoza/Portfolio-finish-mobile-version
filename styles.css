@@ -896,7 +896,7 @@ form li + li {
   .about-social-container {
     position: absolute;
     width: 200px;
-    height: 20px;
+    height: 60px;
     text-align: center;
     top: 3700px;
     list-style-type: none;
