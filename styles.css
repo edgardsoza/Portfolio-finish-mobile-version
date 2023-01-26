@@ -750,7 +750,7 @@ form li + li {
 
   .project-container {
     display: grid;
-    grid-template-columns: repeat(3,369px);
+    grid-template-columns: repeat(3, 369px);
     grid-template-rows: repeat(2, 474px);
     justify-content: center;
     gap: 3rem;
