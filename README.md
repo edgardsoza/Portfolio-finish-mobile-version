@@ -151,7 +151,7 @@ I would like to thank my family and everyone who helped on this project.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license">MIT License</a>
+## 📝<a name="license">MIT License</a>
 
 This project is <a href="https://github.com/edgardsoza/Portfolio-finish-mobile-version/blob/finishing-desktop-version/LICENSE">MIT</a> licensed.
 
