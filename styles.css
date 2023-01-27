@@ -198,8 +198,14 @@
 }
 
 .projectimages {
-  width: 327px;
+  width: 367px;
   height: 252px;
+  transition: all 1s ease-in-out;
+}
+
+.projectimages:hover,
+.projectimages:focus {
+  transform: scale(2);
 }
 
 .project-content {
@@ -580,6 +586,18 @@ form li + li {
     display: flex;
     text-align: center;
     justify-content: center;
+    animation-duration: 4.5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
   }
 
   .web-options {
