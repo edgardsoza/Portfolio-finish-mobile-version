@@ -589,6 +589,7 @@ form li + li {
     animation-duration: 4.5s;
     animation-name: slidein;
   }
+
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -596,7 +597,7 @@ form li + li {
     to {
       margin-left: 0%;
     }
-  }  
+  }
 
   .web-options {
     display: flex;
