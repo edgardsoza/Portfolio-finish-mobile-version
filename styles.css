@@ -200,6 +200,11 @@
 .projectimages {
   width: 327px;
   height: 252px;
+  transition: all 1s ease-in-out;
+}
+.projectimages:hover,
+.projectimages:focus {
+  transform: scale(2);
 }
 
 .project-content {
