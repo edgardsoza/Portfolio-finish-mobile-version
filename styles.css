@@ -203,9 +203,9 @@
   transition: all 1s ease-in-out;
 }
 
-.projectimages:hover, 
+.projectimages:hover,
 .projectimages:focus {
-  transform: scale(2)
+  transform: scale(2);
 }
 
 .project-content {
@@ -586,9 +586,6 @@ form li + li {
     display: flex;
     text-align: center;
     justify-content: center;
-  }
-
-  .menu-web {
     animation-duration: 4.5s;
     animation-name: slidein;
   }
@@ -599,7 +596,7 @@ form li + li {
     to {
       margin-left: 0%;
     }
-  }
+  }  
 
   .web-options {
     display: flex;
