@@ -51,7 +51,7 @@ This is my first portfolio and I am finishing my mobile version with the contact
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://edgardsoza.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,13 +75,13 @@ Installation of Live Server plugging in Visual Studio Code
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/edgardsoza/Portfolio-setup-and-mobile-first
+https://github.com/edgardsoza/Portfolio-finish-mobile-version
 
 ### Install
 
 Install this project with:
 
-https://github.com/edgardsoza/Portfolio-setup-and-mobile-first
+https://github.com/edgardsoza/Portfolio-finish-mobile-version
 
 ### Usage
 
@@ -113,7 +113,7 @@ Open the project by launching the Live Server plugging in visual studio code.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the page of the project at https://www.portfolio.com
+Feel free to check the page of the project at https://edgardsoza.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +122,7 @@ Feel free to check the page of the project at https://www.portfolio.com
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give a like on the following page:
-https://www.portfolio.com.
+ https://edgardsoza.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +146,9 @@ I would like to thank my family and everyone who helped on this project.
 - How long did it take this?
 
   - It took like 2 hours, contact form was easier than expected. 
+
+- What is the project about?
+  - See my project information here: https://www.loom.com/share/43edb4a0a24747eebffd30bfbc436ca3.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
