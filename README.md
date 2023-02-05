@@ -75,13 +75,13 @@ Installation of Live Server plugging in Visual Studio Code
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/edgardsoza/Portfolio-setup-and-mobile-first
+https://github.com/edgardsoza/Portfolio-finish-mobile-version
 
 ### Install
 
 Install this project with:
 
-https://github.com/edgardsoza/Portfolio-setup-and-mobile-first
+https://github.com/edgardsoza/Portfolio-finish-mobile-version
 
 ### Usage
 
@@ -146,6 +146,9 @@ I would like to thank my family and everyone who helped on this project.
 - How long did it take this?
 
   - It took like 2 hours, contact form was easier than expected. 
+
+- What is the project about?
+  - See my project information here: https://www.loom.com/share/43edb4a0a24747eebffd30bfbc436ca3.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
