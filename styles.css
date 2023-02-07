@@ -689,21 +689,6 @@ section[id] {
     margin-bottom: 2rem;
   }
 
-  .desktop-social-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .desktop-social-container li {
-    list-style: none;
-  }
-  
-  .desktop-social-container i {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-
   .intro-btn {
     align-items: center;
     justify-content: center;
