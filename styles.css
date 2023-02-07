@@ -623,15 +623,15 @@ section[id] {
     font-family: 'Inter', sans-serif;
     justify-content: space-around;
     width: 16rem;
-    padding-bottom: 0rem;
+    padding-bottom: 0.01rem;
     box-shadow: none;
     font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 900;
     color: #172b4d;
     margin-bottom: 10rem;
-    margin-left: 0rem;
-    padding-left: auto;
+    margin-left: none;
+    padding-left: none;
     left: auto;
   }
 
@@ -673,7 +673,6 @@ section[id] {
   .intromessage {
     width: 57.5rem;
     height: 8rem;
-    text-justify: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -713,7 +712,7 @@ section[id] {
     font-size: 2.5rem;
     height: 3rem;
     font-weight: 700;
-    line-height: 3.25re,;
+    line-height: 3.25rem;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     margin-bottom: 3.25rem;
@@ -893,7 +892,7 @@ section[id] {
     color: #6b778c;
     padding: 1rem;
     text-transform: capitalize;
-    border: 1px solid #D0D9D4;
+    border: 1px solid #d0d9d4;
     border-radius: 4px;
   }
 
@@ -931,22 +930,18 @@ section[id] {
   .desktop-contact-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 200px;
     height: 60px;
     text-align: center;
     list-style-type: none;
   }
 
-  .desktop-contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
   .desktop-contact-container li {
     list-style: none;
   }
-  
+
   .desktop-social-container i {
     width: 1.25rem;
     height: 1.25rem;
