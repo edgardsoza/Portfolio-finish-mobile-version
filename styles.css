@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 2rem;
+}
+
 .welcome-container {
   width: 100%;
   font-family: 'Inter', sans-serif;
@@ -23,13 +31,14 @@
   align-items: center;
 }
 
-.welcome-container .menu-icon {
+.welcome-container .menuicon {
   text-align: right;
 }
 
-.menu-web,
 .desktop-social-container,
-.desktop-contact-container {
+.desktop-contact-container,
+.xicon,
+.weboptions {
   display: none;
 }
 
@@ -39,10 +48,51 @@
   align-items: center;
   width: 100%;
   background-image: url(images/backgroundimage.png);
-  background-size:auto;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 70px 1.5rem 1.5rem 1.5rem;
 }
+
+.weboptions {
+position: fixed;
+display: flex;
+flex-direction: column;
+background-color: #fff;
+list-style-type: none;
+padding-top: 43rem;
+padding-bottom: 23rem;
+width: 100%;
+box-shadow: 0rem 10rem 10rem rgba(37, 47, 137, 0.08);
+font-weight: 600;
+font-size: 2rem;
+line-height: 2.75rem;
+font-style: normal;
+gap: 1rem;
+margin-left: -1.4rem;
+padding-left: 2rem;
+left: -400px;
+}
+
+.portfolio,
+.about-web,
+.contact-web {
+  width: 7rem;
+  height: 1.5rem;
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.xicon {
+  display: flex;
+  float: right;
+  margin-top: -14rem;
+  margin-right: 2rem;
+}
+
+.active {
+  left: 1.35rem;
+}
+
 .text-intro {
   display: flex;
   flex-direction: column;
@@ -539,13 +589,15 @@
 
 @media screen and (min-width: 768px) {
 
-  .welcome-container,
+  .welcome,
+  .menuicon,
   .contact-container,
-  .social-container {
+  .social-container,
+  .xicon {
     display: none;
   }
 
-  .menu-web {
+  .welcome-container {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -563,17 +615,38 @@
     }
   }
 
-  .web-options {
+  .welcome-container nav {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .weboptions {
+    position: relative;
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    padding-top: 0rem;
     font-family: 'Inter', sans-serif;
     justify-content: space-around;
     width: 16rem;
+    padding-bottom: 0rem;
+    box-shadow: none;
     font-size: 1rem;
     line-height: 1.25rem;
     font-weight: 900;
     color: #172b4d;
     margin-bottom: 10rem;
+    margin-left: 0rem;
+    padding-left: auto;
+    left: auto;
+  }
+
+  .portfolio,
+  .about-web,
+  .contact-web {
+    text-decoration: none;
+    color: #172b4d;
   }
 
   body {
