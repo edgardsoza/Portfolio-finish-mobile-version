@@ -226,12 +226,11 @@
     color: #fff;
     border-radius: 8px;
   }
-    
+
   .livebuttonport {
     padding: 0.75rem 1rem;
     gap: 1rem;
     background: #36b37f;
-    border-radius: 4px;
     width: 9rem;
     height: 3rem;
     display: flex;
