@@ -86,9 +86,9 @@ const projects = [
 
 const popupArray = [];
 
-for (let i = 0; i<projects.length; i++) {
-const mediaQuery = window.matchMedia('(max-width: 768px)');
-if (mediaQuery.matches) {
+for (let i = 0; i< projects.length; i+=1) {
+  const mediaQuery = window.matchMedia('(max-width: 768px)');
+  if (mediaQuery.matches) {
     const popup = document.createElement('div');
     popup.classList.add('closingpopup');
     popup.classList.add('popuppt');
@@ -99,7 +99,7 @@ if (mediaQuery.matches) {
 
     const projectimage = document.createElement('img');
     projectimage.src = projects[i].image;
-    projectimage.classList.add('imagepopup')
+    projectimage.classList.add('imagepopup');
 
     const closeButton = document.createElement('img');
     closeButton.src = projects[i].closeBut;
@@ -114,21 +114,21 @@ if (mediaQuery.matches) {
     projectcard.append(title);
 
     const techs = document.createElement('ul');
-    techs.classList.add('techs')
+    techs.classList.add('techs');
 
     for (let j = 0; j < projects[i].techs.length ; j+=1) {
-        const li = document.createElement('li');
-        li.textContent = projects[i].techs[j];
-        li.classList.add('liproject');
+    const li = document.createElement('li');
+    li.textContent = projects[i].techs[j];
+    li.classList.add('liproject');
 
-        techs.append(li);
+    techs.append(li);
     }
 
     const leftblock = document.createElement('div');
     leftblock.style.display = 'flex';
     leftblock.style.flexDirection = 'column';
     leftblock.classList.add('leftblock');
-    leftblock.append(techs); 
+    leftblock.append(techs);
     projectcard.append(leftblock);
 
     const paragraph = document.createElement('p');
@@ -142,7 +142,7 @@ if (mediaQuery.matches) {
     bottomblock.style.display = 'flex';
     bottomblock.style.flexDirection = 'row';
     projectcard.append(bottomblock);
-    bottomblock.classList.add('bottomblock')
+    bottomblock.classList.add('bottomblock');
 
     const buttons = document.createElement('div');
     buttons.classList.add('buttons');
@@ -170,12 +170,9 @@ if (mediaQuery.matches) {
     document.querySelector('body').appendChild(popup);
 
     closeButton.addEventListener('click', () => { popupArray[i].classList.remove('openPopup'); popupArray[i].classList.add('closingpopup'); });
-    
     const projectbutton = document.querySelectorAll('.projectbutton');
     projectbutton[i].addEventListener('click', () => { popupArray[i].classList.remove('closingpopup'); popupArray[i].classList.add('openPopup'); });
-}
-
-else {
+  }  else {
     const popup = document.createElement('div');
     popup.classList.add('closingpopup');
     popup.classList.add('popuppt');
@@ -237,7 +234,6 @@ else {
     const li = document.createElement('li');
     li.textContent = projects[i].techsdesktop[j];
     li.classList.add('liproject');
-
     techs.append(li);
     }
 
