@@ -484,7 +484,7 @@ section[id] {
   line-height: 1.5rem;
   color: #6b778c;
   padding: 1rem;
-  text-transform: capitalize;
+  text-transform: none;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
@@ -501,7 +501,7 @@ section[id] {
   line-height: 1.5rem;
   color: #091e42;
   padding: 15px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .get-in-button {
@@ -579,6 +579,23 @@ section[id] {
   background: black;
   border-radius: 1.5rem;
   order: 4;
+}
+
+#emailerror {
+  display: none;
+}
+
+#emailerror.activerror {
+  display: flex;
+  background: #ff6163;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.get-in-button.inactive {
+  background-color: #ebeff4;
 }
 
 @media screen and (min-width: 768px) {
@@ -895,7 +912,7 @@ section[id] {
     line-height: 1.5rem;
     color: #6b778c;
     padding: 1rem;
-    text-transform: capitalize;
+    text-transform: none;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
   }
