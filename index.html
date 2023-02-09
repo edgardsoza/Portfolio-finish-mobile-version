@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b33cf67da8.js" crossorigin="anonymous"></script>
     <script src="./popup-portfolio.js" defer></script>
+    <script src="./local-storage.js" defer></script>
     <script src="./validation.js" defer></script>
     <link rel="stylesheet" type="text/css" href="popup-portfolio.css">
     <title>Portfolio | Edgard</title>
@@ -198,7 +199,7 @@
             <p class="contactparagraph">I'm always interested in hearing about new projects,
                  so if you'd like to chat please get in touch.
             </p>
-            <form class="contactform" action="https://formspree.io/f/xeqwoznl" method="post">
+            <form class="contactform" id="contactform" action="https://formspree.io/f/xeqwoznl" method="post">
             <ul class="sendamessage">
                 <li><input type="text" id="name" name="full_name" placeholder="Full Name" maxlength="30" required/></li>
                 <li><input type="email" id="email" name="contact_email" placeholder="Email address" required/></li>
