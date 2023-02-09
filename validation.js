@@ -4,8 +4,7 @@ const error = document.getElementById('emailerror');
 const regex = /[A-Z]/;
 var email = document.getElementById('email');
 
-form.addEventListener('input', () => {
-    console.log(email.value);
+email.addEventListener('input', () => {
   if(regex.test(email.value) === true) {
     error.innerHTML = "Please enter the email without caps";
     error.classList.add('activerror');
