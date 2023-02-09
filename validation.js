@@ -15,4 +15,4 @@ email.addEventListener('input', () => {
     submit.classList.remove('inactive');
     error.classList.remove('activerror');
   }
-},);
+});
