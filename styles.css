@@ -578,7 +578,7 @@ section[id] {
   height: 0.5rem;
   background: black;
   border-radius: 1.5rem;
-  order: 4;
+  order: 4; 
 }
 
 @media screen and (min-width: 768px) {
