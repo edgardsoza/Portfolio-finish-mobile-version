@@ -9,11 +9,10 @@ email.addEventListener('input', () => {
     error.classList.add('activerror');
     submit.classList.add('inactive');
     submit.disabled = true;
-    } else {
+  } else {
     error.innerHTML = '';
     submit.disabled = false;
     submit.classList.remove('inactive');
     error.classList.remove('activerror');
   }
-},
-);
+},);
