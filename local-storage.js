@@ -6,7 +6,7 @@ const savedata = localStorage.getItem('savedinformation');
 
 let object = {
   name: '',
-  email: ''
+  email: '',
   message: ''
 };
 
