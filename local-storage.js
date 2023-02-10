@@ -6,8 +6,8 @@ const savedata = localStorage.getItem('savedinformation');
 
 let object = {
   name: '',
-  email: '',
-  message: '',
+  email: ''
+  message: ''
 };
 
 form.addEventListener('input', () => {
