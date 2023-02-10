@@ -24,13 +24,13 @@
   position: absolute;
   margin-bottom: 0.75rem;
   z-index: 1;
-  width: 21.9rem;
+  width: 86%;
 }
 
 .closingbutton {
   position: absolute;
   z-index: 1;
-  margin-left: 19.17rem;
+  margin-left: 75.5%;
   margin-top: 1.15rem;
   color: #67798e;
   font-size: 24px;
@@ -167,6 +167,7 @@
     opacity: 1;
     margin-left: 10%;
     margin-right: 10%;
+    overflow: scroll;
   }
 
   .closingbutton {
