@@ -4,7 +4,7 @@ const projects = [
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
     image: 'images/portfolioimg.png',
-    imageportfolio: 'images/imageportfolio.png',
+    imageportfolio: 'images/project1.jpg',
     title: 'Keeping track of hundreds of components',
     techs: ['Ruby on Rails', 'css', 'JavaScript'],
     techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
@@ -158,7 +158,12 @@ for (let i = 0; i < projects.length; i += 1) {
     seesourceimage.src = 'images/seesource.png';
     const sourcebutton = document.createElement('button');
     sourcebutton.textContent = projects[i].seesource;
-    sourcebutton.append(seesourceimage);
+    const aelement = document.createElement('a');
+    aelement.textContent = projects[i].seesource;
+    aelement.setAttribute('href', 'https://github.com/edgardsoza/Portfolio-finish-mobile-version');
+    sourcebutton.append(aelement, seesourceimage);
+    sourcebutton.setAttribute('type', 'button');
+    aelement.classList.add('aelement');
     sourcebutton.classList.add('sourcebuttonport');
     buttons.append(sourcebutton);
 
@@ -214,8 +219,13 @@ for (let i = 0; i < projects.length; i += 1) {
     const seesourceimage = document.createElement('img');
     seesourceimage.src = 'images/seesource.png';
     const sourcebutton = document.createElement('button');
-    sourcebutton.textContent = projects[i].seesource;
     sourcebutton.append(seesourceimage);
+    const aelement = document.createElement('a');
+    aelement.setAttribute('href', 'https://github.com/edgardsoza/Portfolio-finish-mobile-version');
+    sourcebutton.append(aelement, seesourceimage);
+    sourcebutton.setAttribute('type', 'button');
+    aelement.textContent = projects[i].seesource;
+    aelement.classList.add('aelement');
     sourcebutton.classList.add('sourcebuttonport');
     buttons.append(sourcebutton);
     rightblock.append(buttons);

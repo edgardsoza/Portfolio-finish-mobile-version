@@ -245,7 +245,7 @@ section[id] {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   color: #3a4a42;
 }
@@ -596,6 +596,11 @@ section[id] {
 
 .get-in-button.inactive {
   background-color: #ebeff4;
+}
+
+.aelement {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
