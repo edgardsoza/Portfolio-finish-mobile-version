@@ -30,8 +30,8 @@
 .closingbutton {
   position: absolute;
   z-index: 1;
-  margin-left: 19.17rem;
-  margin-top: 1.15rem;
+  top: 1.15rem;
+  right: 1.15rem;
   color: #67798e;
   font-size: 24px;
 }
@@ -51,11 +51,15 @@
   width: 16.2rem;
   height: 8.45rem;
   color: #172b4d;
+  text-align: center;
 }
 
 .leftblock {
   display: flex;
-  width: 20rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -64,6 +68,8 @@
   list-style: none;
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .liproject {
@@ -86,8 +92,11 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: #344563;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .bottomblock {
@@ -101,17 +110,17 @@
   width: 100%;
 }
 
-.sourcebuttonport {
+.sourcebuttonport,
+.livebuttonport {
   padding: 0.75rem 1rem;
   gap: 0.75rem;
   background: #36b37f;
   border: none;
   border-radius: 8px;
-  width: 10rem;
-  height: 3rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -121,24 +130,14 @@
   color: #fff;
 }
 
+.sourcebuttonport {
+  width: 10rem;
+  height: 3rem;
+}
+
 .livebuttonport {
-  padding: 0.75rem 1rem;
-  gap: 0.75rem;
-  background: #36b37f;
-  border: none;
-  border-radius: 8px;
   width: 9rem;
   height: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.03em;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  color: #fff;
 }
 
 .closingpopup {
@@ -196,7 +195,10 @@
 
   .bigblock {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
     width: 100%;
   }
 
@@ -216,46 +218,22 @@
   }
 
   .sourcebuttonport {
-    padding: 0.5rem 0.75rem;
-    gap: 0.5rem;
-    background: #36b37f;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     width: 11rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
   }
 
   .livebuttonport {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     gap: 0.5rem;
-    background: #36b37f;
     width: 9.5rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
   }
 
   .leftblock {
     display: flex;
-    width: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 3rem;
   }
 

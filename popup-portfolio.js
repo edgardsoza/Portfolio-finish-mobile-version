@@ -4,13 +4,15 @@ const projects = [
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
     image: 'images/portfolioimg.png',
-    imageportfolio: 'images/project1.jpg',
-    title: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    imageportfolio: 'images/project-javascript-html.jpg',
+    title: 'Using Javascript to populate HTML.',
+    techs: ['HTML', 'CSS', 'JavaScript'],
+    techsdesktop: ['HTML', 'CSS', 'Javascript'],
+    content: 'This project is about populating data based on click events on user side. Javascript was used to populate the popup windows and to handle the onclick events to open and close the popup',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/capstone-Project',
+    livelink: '',
   },
 
   {
@@ -124,8 +126,6 @@ for (let i = 0; i < projects.length; i += 1) {
     }
 
     const leftblock = document.createElement('div');
-    leftblock.style.display = 'flex';
-    leftblock.style.flexDirection = 'column';
     leftblock.classList.add('leftblock');
     leftblock.append(techs);
     projectcard.append(leftblock);
@@ -160,7 +160,7 @@ for (let i = 0; i < projects.length; i += 1) {
     sourcebutton.textContent = projects[i].seesource;
     const aelement = document.createElement('a');
     aelement.textContent = projects[i].seesource;
-    aelement.setAttribute('href', 'https://github.com/edgardsoza/Portfolio-finish-mobile-version');
+    aelement.setAttribute('href', projects[i].sourcelink);
     sourcebutton.append(aelement, seesourceimage);
     sourcebutton.setAttribute('type', 'button');
     aelement.classList.add('aelement');
@@ -221,7 +221,7 @@ for (let i = 0; i < projects.length; i += 1) {
     const sourcebutton = document.createElement('button');
     sourcebutton.append(seesourceimage);
     const aelement = document.createElement('a');
-    aelement.setAttribute('href', 'https://github.com/edgardsoza/Portfolio-finish-mobile-version');
+    aelement.setAttribute('href', projects[i].sourcelink);
     sourcebutton.append(aelement, seesourceimage);
     sourcebutton.setAttribute('type', 'button');
     aelement.textContent = projects[i].seesource;
@@ -247,8 +247,6 @@ for (let i = 0; i < projects.length; i += 1) {
     }
 
     const leftblock = document.createElement('div');
-    leftblock.style.display = 'flex';
-    leftblock.style.flexDirection = 'column';
     leftblock.classList.add('leftblock');
     leftblock.append(techs);
     projectcard.append(leftblock);
