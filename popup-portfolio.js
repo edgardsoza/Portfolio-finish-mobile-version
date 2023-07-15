@@ -12,7 +12,7 @@ const projects = [
     seelive: 'See Live',
     seesource: 'See Source',
     sourcelink: 'https://github.com/edgardsoza/capstone-Project',
-    livelink: '',
+    livelink: 'https://extraordinary-zabaione-0dc518.netlify.app/',
   },
 
   {
@@ -150,7 +150,11 @@ for (let i = 0; i < projects.length; i += 1) {
     liveimage.src = 'images/seelive.png';
     const livebutton = document.createElement('button');
     livebutton.textContent = projects[i].seelive;
-    livebutton.append(liveimage);
+    const aelement2 = document.createElement('a');
+    aelement2.setAttribute('href', projects[i].livelink);
+    livebutton.append(aelement2, liveimage);
+    livebutton.setAttribute('type','button');
+    aelement2.classList.add('aelement');
     livebutton.classList.add('livebuttonport');
     buttons.append(livebutton);
 
@@ -211,8 +215,12 @@ for (let i = 0; i < projects.length; i += 1) {
     const liveimage = document.createElement('img');
     liveimage.src = 'images/seelive.png';
     const livebutton = document.createElement('button');
-    livebutton.textContent = projects[i].seelive;
-    livebutton.append(liveimage);
+    const aelement2 = document.createElement('a');
+    aelement2.setAttribute('href', projects[i].livelink);
+    livebutton.setAttribute('type', 'button');
+    aelement2.classList.add('aelement');
+    aelement2.textContent = projects[i].seelive;
+    livebutton.append(aelement2, liveimage);
     livebutton.classList.add('livebuttonport');
     buttons.append(livebutton);
 
