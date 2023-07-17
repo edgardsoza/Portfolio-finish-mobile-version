@@ -3,7 +3,7 @@ const projects = [
     id: 'popup-project-1',
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
-    image: 'images/portfolioimg.png',
+    image: 'images/project-javascript-html.jpg',
     imageportfolio: 'images/project-javascript-html.jpg',
     title: 'Using Javascript to populate HTML.',
     techs: ['HTML', 'CSS', 'JavaScript'],
@@ -149,10 +149,10 @@ for (let i = 0; i < projects.length; i += 1) {
     const liveimage = document.createElement('img');
     liveimage.src = 'images/seelive.png';
     const livebutton = document.createElement('button');
-    livebutton.textContent = projects[i].seelive;
     const aelement2 = document.createElement('a');
     aelement2.setAttribute('href', projects[i].livelink);
     livebutton.append(aelement2, liveimage);
+    aelement2.textContent = projects[i].seelive;
     livebutton.setAttribute('type','button');
     aelement2.classList.add('aelement');
     livebutton.classList.add('livebuttonport');
@@ -161,7 +161,6 @@ for (let i = 0; i < projects.length; i += 1) {
     const seesourceimage = document.createElement('img');
     seesourceimage.src = 'images/seesource.png';
     const sourcebutton = document.createElement('button');
-    sourcebutton.textContent = projects[i].seesource;
     const aelement = document.createElement('a');
     aelement.textContent = projects[i].seesource;
     aelement.setAttribute('href', projects[i].sourcelink);

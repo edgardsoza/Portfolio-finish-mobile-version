@@ -200,6 +200,7 @@ section[id] {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
   border-radius: 0.5rem;
+  justify-items: center;
 }
 
 .project1,
@@ -210,6 +211,7 @@ section[id] {
 .project6 {
   display: flex;
   flex-direction: column;
+  width: 90%;
   text-align: center;
   border: 1px solid #d0d9d4;
   border-radius: 1%;
@@ -370,16 +372,15 @@ section[id] {
   border-radius: 0.5rem;
   width: 20.5rem;
   height: 22rem;
-  padding-top: 2.5rem;
 }
 
 .iconlanguages,
 .preferredframeworks,
 .myskills {
   width: 5rem;
-  height: 5rem;
+  height: 4rem;
   background: #ebf0ee;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .titlelanguages,
