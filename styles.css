@@ -238,7 +238,7 @@ section[id] {
 
 .text-title {
   width: 18.5rem;
-  height: 3.5rem;
+  height: 2rem;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
@@ -261,6 +261,7 @@ section[id] {
   width: 19rem;
   height: 2rem;
   padding: 0;
+  margin-bottom: 1rem;
 }
 
 .technologies li {

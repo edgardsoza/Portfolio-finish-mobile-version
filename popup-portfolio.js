@@ -19,14 +19,16 @@ const projects = [
     id: 'popup-project-2',
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
-    image: 'images/portfolioimg.png',
-    imageportfolio: 'images/imageportfolio.png',
-    title: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    image: 'images/math_magicians_project_reactjs.JPG',
+    imageportfolio: 'images/math_magicians_project_reactjs.JPG',
+    title: 'React.js and APIs to create a calculator and show quotes.',
+    techs: ['HTML', 'CSS', 'JavaScript', 'React.js', 'APIs'],
+    techsdesktop: ['HTML', 'CSS', 'JavaScript', 'React.js', 'APIs'],
+    content: 'Math Magicians project has the objective to understand how to use medium-fidelity wireframes to create a UI. I will start using React to create a SPA that allow users to make simple calculations and read a random math-related quote.',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/math-magicians',
+    livelink: 'https://math-magicians-edgardsoza.onrender.com/',
   },
 
   {
@@ -35,54 +37,62 @@ const projects = [
     closedesktop: 'images/closedesktop.png',
     image: 'images/portfolioimg.png',
     imageportfolio: 'images/imageportfolio.png',
-    title: 'Keeping track of hundreds of components',
+    title: 'Financial company information',
     techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    techsdesktop: ['Ruby on Rails', 'CSS', 'JavaScript', ],
     content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/stocks-react-capstone-project',
+    livelink: 'https://warm-clafoutis-f8deb6.netlify.app/',
   },
 
   {
     id: 'popup-project-4',
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
-    image: 'images/portfolioimg.png',
-    imageportfolio: 'images/imageportfolio.png',
-    title: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    image: 'images/space_traveler_react.JPG',
+    imageportfolio: 'images/space_traveler_react.JPG',
+    title: 'Using React and Redux to manage different states in an app.',
+    techs: ['CSS', 'JavaScript', 'React', 'Redux', 'API', 'HTML'], 
+    techsdesktop: ['CSS', 'JavaScript', 'React', 'Redux', 'API', 'HTML'], 
+    content: 'This is a web application that allows users to view information about rockets, missions, and dragons from SpaceX. Users can join missions and reserve rockets and dragons.',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/space-traveler-hub',
+    livelink: 'https://edgardsoza.github.io/space-traveler-hub/',
   },
 
   {
     id: 'popup-project-5',
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
-    image: 'images/portfolioimg.png',
-    imageportfolio: 'images/imageportfolio.png',
-    title: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    image: 'images/stocks_react_redux.JPG',
+    imageportfolio: 'images/stocks_react_redux.JPG',
+    title: 'Financial company information',
+    techs: ['CSS', 'JavaScript', 'React', 'Redux', 'API', 'HTML'], 
+    techsdesktop: ['CSS', 'JavaScript', 'React', 'Redux', 'API', 'HTML'], 
+    content: 'This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I will create making use of React and Redux.',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/OOP-school-library',
+    livelink: 'No-link',
   },
 
   {
     id: 'popup-project-6',
     closeBut: 'images/cancelicon.png',
     closedesktop: 'images/closedesktop.png',
-    image: 'images/portfolioimg.png',
-    imageportfolio: 'images/imageportfolio.png',
-    title: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'JavaScript'],
-    techsdesktop: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    image: 'images/personal-billing-ruby-app.JPG',
+    imageportfolio: 'images/personal-billing-ruby-app.JPG',
+    title: 'Using Ruby on Rails and PSQL to create transaction records.',
+    techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML', 'PSQL'],
+    techsdesktop: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML', 'PSQL'],
+    content: 'This RoR capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     seelive: 'See Live',
     seesource: 'See Source',
+    sourcelink: 'https://github.com/edgardsoza/personal-billing',
+    livelink: 'https://personal-billing.onrender.com/splash',
   },
 ];
 
@@ -107,7 +117,11 @@ for (let i = 0; i < projects.length; i += 1) {
     closeButton.src = projects[i].closeBut;
     closeButton.classList.add('closingbutton');
 
-    projectcard.append(projectimage, closeButton);
+    const imageandclosing = document.createElement('div');
+    imageandclosing.classList.add('imageandclosing');
+    imageandclosing.append(closeButton, projectimage);
+
+    projectcard.append(imageandclosing);
 
     const title = document.createElement('h3');
     title.textContent = projects[i].title;
@@ -127,15 +141,15 @@ for (let i = 0; i < projects.length; i += 1) {
 
     const leftblock = document.createElement('div');
     leftblock.classList.add('leftblock');
-    leftblock.append(techs);
-    projectcard.append(leftblock);
 
     const paragraph = document.createElement('p');
     paragraph.textContent = projects[i].content;
     paragraph.classList.add('paragraph');
     paragraph.style.width = 'auto';
 
-    projectcard.append(paragraph);
+    leftblock.append(techs, paragraph);
+
+    projectcard.append(leftblock);
 
     const bottomblock = document.createElement('div');
     bottomblock.style.display = 'flex';
@@ -196,7 +210,12 @@ for (let i = 0; i < projects.length; i += 1) {
     const projectimage = document.createElement('img');
     projectimage.src = projects[i].imageportfolio;
     projectimage.classList.add('imagepopup');
-    projectcard.append(projectimage);
+    
+    const imageandclosing = document.createElement('div');
+    imageandclosing.classList.add('imageandclosing');
+    imageandclosing.append( closeButton, projectimage);
+
+    projectcard.append(imageandclosing);
 
     const title = document.createElement('h3');
     title.textContent = projects[i].title;
@@ -255,15 +274,15 @@ for (let i = 0; i < projects.length; i += 1) {
 
     const leftblock = document.createElement('div');
     leftblock.classList.add('leftblock');
-    leftblock.append(techs);
-    projectcard.append(leftblock);
 
     const paragraph = document.createElement('p');
     paragraph.textContent = projects[i].content;
     paragraph.classList.add('paragraph');
     paragraph.style.width = 'auto';
 
-    projectcard.append(paragraph);
+    leftblock.append(techs, paragraph);
+    
+    projectcard.append(leftblock);
 
     popupArray.push(popup);
 
